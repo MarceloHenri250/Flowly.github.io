@@ -82,12 +82,12 @@ Este repositório contém um plano detalhado para implementar o projeto Flowly e
 
 ## Como rodar (exemplo)
 
-> Os comandos abaixo são exemplos; ajuste caminhos e nomes de projeto conforme seus repositórios `flowly-api` e `flowly-web`.
+> Os comandos abaixo são exemplos; ajuste caminhos e nomes de projeto conforme as pastas `backend` e `frontend`.
 
 PowerShell (backend):
 
 ```powershell
-cd flowly-api
+cd backend
 dotnet restore
 dotnet ef database update
 dotnet run
@@ -96,15 +96,15 @@ dotnet run
 PowerShell (frontend):
 
 ```powershell
-cd flowly-web
+cd frontend
 npm install
 npm run dev
 ```
 
 ## Repositórios sugeridos
 
-- `flowly-api` — ASP.NET Core Web API (models, controllers, EF Core, auth)
-- `flowly-web` — React + Vite + Tailwind (UI, auth, dashboard, kanban)
+- `backend` — ASP.NET Core Web API (models, controllers, EF Core, auth)
+- `frontend` — React + Vite + Tailwind (UI, auth, dashboard, kanban)
 
 ## Contribuição
 
