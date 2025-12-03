@@ -28,7 +28,7 @@ Este repositório contém um plano detalhado para implementar o projeto Flowly e
 - [ ] Definir tema claro/escuro
 - [ ] Criar a logo “Flowly”
 - [ ] Planejar navegação: Landing, Login, Cadastro, Dashboard, Página do Quadro, Modais, Configurações, Compartilhar quadro
-- [ ] Criar repositórios: `flowly-api` (ASP.NET Core) e `flowly-web` (React + Vite + Tailwind)
+- [x] Criar repositórios: `flowly-api` (ASP.NET Core) e `flowly-web` (React + Vite + Tailwind)
 
 ### DIA 2 — Banco de Dados & API Base
 
